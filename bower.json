@@ -1,0 +1,21 @@
+{
+  "name": "pathfinder-frontend",
+  "version": "0.0.0",
+  "homepage": "https://github.com/yafithekid/pathfinder-frontend",
+  "authors": [
+    "Muhammad Yafi <yafithekid212@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "Bootflat": "~2.0.4"
+  }
+}

@@ -1,0 +1,24 @@
+<html>
+<head>
+    <link rel="stylesheet" href="bower_components/Bootflat/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="bower_components/Bootflat/bootflat/css/bootflat.min.css"/>
+    <link rel="stylesheet" href="bower_components/Bootflat/css/site.min.css"/>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+</head>
+<body ng-app="app">
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/main.js"></script>
+    <div class="row">
+        <div class="col-md-9">
+            <div id="map" style="height: 100%;"></div>
+        </div>
+        <div class="col-md-3">
+            <div>
+                <a href="#/list">List</a> | <a href="#/search">Search</a> | <a href="#/about">About</a>
+            </div>
+            <ng-view></ng-view>
+        </div>
+    </div>
+</body>
+</html>
